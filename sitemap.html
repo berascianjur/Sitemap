@@ -293,7 +293,7 @@ _h=d.createElement('a');_h.href='#reset-content';_h.innerHTML=cfg.resetToc;_h.on
 
 o.g.appendChild(_h);o.a.disabled=false;o.b.children[0].disabled=false;
 },e:function(json) {
-var a=json.feed.category,b='<select id="label-sorter"><option value="" selected disabled>Seleccionar categoría...</option>';for(var i=0,len=a.length;i<len;i++){b+='<option value="'+ encodeURIComponent(a[i].term).replace(/%20/g, " ")+'">'+ encodeURIComponent(a[i].term).replace(/%20/g, " ")+'</option>';
+var a=json.feed.category,b='<select id="label-sorter"><option value="" selected disabled>Pilih kategori...</option>';for(var i=0,len=a.length;i<len;i++){b+='<option value="'+ encodeURIComponent(a[i].term).replace(/%20/g, " ")+'">'+ encodeURIComponent(a[i].term).replace(/%20/g, " ")+'</option>';
 }
 
 b+='</select>';o.b.innerHTML=b;o.b.children[0].onchange=function() {
